@@ -11,3 +11,7 @@ Laysla Luciana Rodrigues Santos - 821216057
 Nathan Gomes Araújo - 821224587
 
 Vinícius Almeida dos Santos - 821246691
+
+---------------------------------------
+Link para o vídeo: 
+https://youtu.be/vX96h5zhxBI
