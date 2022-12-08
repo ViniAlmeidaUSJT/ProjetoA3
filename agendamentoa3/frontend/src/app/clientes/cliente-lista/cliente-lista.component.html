@@ -1,0 +1,22 @@
+
+<br>
+<br>
+<br>
+
+<h1>Histórico de agendamento</h1>
+
+<br>
+<br>
+<br>
+
+<mat-accordion *ngIf="clientes.length > 0">
+  <mat-expansion-panel *ngFor="let cliente of clientes">
+    <mat-expansion-panel-header>Especialidade: {{cliente.especialidade}}</mat-expansion-panel-header>
+    <p>Nome: {{cliente.nome}}</p>
+    <hr />
+    <p>data: {{cliente.data}}</p>
+  </mat-expansion-panel>
+</mat-accordion>
+<p class="mat-body-1" style="text-align: center;" *ngIf="clientes.length <= 0">Nenhum cliente cadastrado</p>
+
+

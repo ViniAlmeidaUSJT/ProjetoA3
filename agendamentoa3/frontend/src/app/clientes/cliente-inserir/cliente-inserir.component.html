@@ -1,0 +1,22 @@
+<br>
+<br>
+
+<mat-card>
+  <mat-form-field>
+    <input type="text" matInput placeholder="nome" [(ngModel)]="nome" />
+  </mat-form-field>
+  <mat-form-field>
+    <input type="text" matInput placeholder="especialidade" [(ngModel)]="especialidade" />
+  </mat-form-field>
+  <mat-form-field>
+    <input type="date" matInput placeholder="data" [(ngModel)]="data" />
+  </mat-form-field>
+
+
+
+  <mat-card-actions>
+    <button color="primary" mat-raised-button (click)="onAdicionarCliente()">Agendar</button>
+  </mat-card-actions>
+</mat-card>
+
+
